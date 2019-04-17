@@ -3,7 +3,7 @@ import './card.css';
 
 export default function Card(props) {
  return (
-    <div class="Card">
+    <div className="Card">
         <button type="button"></button>
         <h3>{props.title}</h3>
         <p>{props.content}</p>
@@ -11,4 +11,4 @@ export default function Card(props) {
  );
 }
 
-// export default Card;
+// export default Card;u
